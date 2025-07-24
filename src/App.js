@@ -1,10 +1,10 @@
 import "./App.css";
-import { Stopwatch } from "./Stopwatch";
+import TrafficLight from "./components/TrafficLight/TrafficLight";
 
 function App() {
   return (
     <div className="App">
-      <Stopwatch />
+      <TrafficLight />
     </div>
   );
 }
